@@ -1,0 +1,56 @@
+.{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	color: darkgray;
+}
+.main-card{
+	background: hsl(185, 75%, 39%);
+	padding: 300px 800px;
+}
+
+.main-card > .card{
+	background-color: white;
+	width: 350px;
+	height: 400px;
+	border-radius: 15px;
+}
+
+.main-card .card > .profile-image{
+	padding-top: 30px;
+	background-image: url("/static/images/bg-pattern-card.svg");
+	border-radius: 15px 15px 0px 0px;
+	position: relative;
+	height: 100px;
+}
+.main-card .card > .profile-image img{
+	top: 70px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 50%;
+	margin-left: 125px;
+
+
+}
+
+.main-card .card > .name-location{
+	margin-top: 70px;
+	text-align: center;
+}
+
+.main-card .card > .card-footer{
+	display: flex;
+	justify-content: space-around;
+}
+
+#stats{
+	text-align: center;
+}
+
+#age{
+	color: darkgray;
+	font-weight: 400;
+	margin-left: 5px;
+}

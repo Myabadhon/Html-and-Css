@@ -1,0 +1,33 @@
+.{
+	margin: 0;
+	padding: 0;
+}
+
+.main-card{
+	background-color: hsl(0, 0%, 95%);
+	padding: 230px 300px;
+}
+
+.card{
+	display: flex;
+	height: 500px;
+	width: 1000px;
+	margin-left: 150px;
+
+}
+
+
+.main-card .card > .subcard-0{
+	background: hsl(31, 77%, 52%);
+	border-radius: 10px 0px 0px 10px;
+
+}
+
+.main-card .card > .subcard-1{
+	background-color: hsl(184, 100%, 22%);
+}
+
+.main-card .card > .subcard-2{
+	background-color:  hsl(179, 100%, 13%);
+	border-radius: 0px 10px 10px 0px;
+}

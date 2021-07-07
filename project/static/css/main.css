@@ -1,0 +1,165 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*------------------Navbar------------------*/
+.nav-bar{
+	background-color: black;
+	color: white;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 100px;
+}
+
+.nav-bar > .logo{
+	font-size: 30px;
+}
+
+#logo-color{
+	color: orange;
+}
+#logo-front{
+	font-weight: 900;
+}
+
+.nav-bar .menu ul li{
+	display: inline;
+}
+.nav-bar .menu ul li a{
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav-bar .menu ul li a:hover{
+	color: black;
+	background-color: white;
+}
+
+/*---------------------Navbar---------------------*/
+.body{
+	height: 800px;
+	background-image:linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.50)
+    ),url("/static/images/background_image.jpg");
+	background-repeat: no-repeat;
+	background-size: 1920px 1000px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 100px;
+}
+
+/*------------------------left body----------------*/
+.body > .left-body{
+	height: 360px;
+}
+ 
+.body .left-body > .big-logo{
+	color: white;
+	font-size: 60px;
+}
+.body .left-body > .left-text-1{
+	color: white;
+	display: inline-block;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-top: 20px;
+}
+
+hr{
+	width: 50px;
+	margin: 40px 0px;
+}
+
+.body .left-body > .left-text-2{
+	color: white;
+	display: inline-block;
+	width: 400px;
+}
+
+.body .left-body > .download-button{
+	margin-top: 40px;
+}
+.body .left-body > .download-button input{
+	background: transparent;
+	color: white;
+	border: none;
+	border: 2px solid white;
+	font-weight: bold;
+	padding: 5px;
+	width: 120px;
+}
+/*------------------------left body----------------*/
+
+/*----------------------right body------------------*/
+.body > .right-body{
+	height: 360px;
+	background-color: white;
+}
+
+.body .right-body .right-text-1{
+	background-color: rgb(255, 242,230);
+	text-align: center;
+	height: 30px;
+	padding-top: 15px;
+}
+
+.right-body .inputs{
+	padding: 0px 30px 30px 30px;
+}
+.right-body .inputs input{
+	display: block;
+	margin: 40px 0px;
+	width: 250px;
+	padding: 10px 15px;
+	font-size: 15px;
+	border: none;
+	border-bottom:1px solid black;
+	outline: none;
+}
+
+.right-body .input-button input{
+	display: block;
+	width: 100%;
+	border: none;
+	color: white;
+	background-color: orange;
+	font-size: 15px;
+	height: 50px;
+}
+
+/*----------------------right body------------------*/
+
+/*--------------------Footer Part-------------------*/
+.footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 100px;
+	margin: 20px 0px;
+}
+
+.footer .left-footer{
+	width: 400px;
+
+}
+
+.footer .left-footer > p:first-child{
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.footer .left-footer > p:last-child{
+}
+
+.footer .right-footer{
+	font-size: 40px;
+	letter-spacing: 40px;
+	color: rgb(171, 178, 185);
+
+}
